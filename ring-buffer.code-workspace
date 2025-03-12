@@ -1,0 +1,68 @@
+{
+    // Add project folders 
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    // Machine specific settings that should be copied into the container
+    "settings": {
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        // C/C++ configurations
+        "C_Cpp.errorSquiggles": "disabled",
+        // Disable cSpell diagnostic in PROBLEMS catcher.
+        "cSpell.diagnosticLevel": "Hint",
+        // Default intelisense engine
+        "C_Cpp.intelliSenseEngine": "default",
+        // Configure CMake on open
+        "cmake.configureOnOpen": true,
+        // Configure build dircetory
+        "cmake.buildDirectory": "${workspaceFolder}/build",
+        // CMake default directory
+        "cmake.sourceDirectory": "${workspaceFolder}/tests/gtest",
+        // Configurations based on file extensions
+        "[cpp]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[hpp]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[c]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[h]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "files.associations": {
+            "ring_buffer_conf.h": "c",
+            "chrono": "cpp"
+        }
+    },
+    // Development extensions
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.cmake-tools",
+            "ms-vscode.cpptools",
+            "ms-vscode.hexeditor",
+            "streetsidesoftware.code-spell-checker"
+        ]
+    },
+    // Lunch configurations
+    "launch": {
+        "version": "0.2.0",
+        "configurations": []
+    }
+}

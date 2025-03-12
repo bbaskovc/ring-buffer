@@ -1,0 +1,10 @@
+# Visual Studio Code files 
+.vscode/
+
+# Cached files 
+.cache/
+__cache__/
+__pycache__/
+
+# Build files 
+build/

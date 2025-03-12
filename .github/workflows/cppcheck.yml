@@ -1,0 +1,15 @@
+name: Run cppcheck test
+
+on:
+  push:
+    branches:
+      - test/cppcheck
+
+jobs:
+  cppcheck:
+    uses: bbaskovc/cicd/.github/workflows/cppcheck.yml@main
+    with:
+      test_dir: 'tests/cppcheck'
+      project_name: 'ring_buffer_cppcheck'
+
+      

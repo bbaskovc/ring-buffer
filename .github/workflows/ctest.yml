@@ -1,0 +1,15 @@
+name: Run ctest check
+
+on:
+  push:
+    branches:
+      - test/ctest
+
+jobs:
+  ctest:
+    uses: bbaskovc/cicd/.github/workflows/ctest.yml@main
+    with:
+      test_dir: 'tests/ctest'
+      project_name: 'ring_buffer_ctest'
+
+      

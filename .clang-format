@@ -1,0 +1,28 @@
+# Project formatting rules 
+
+BasedOnStyle: LLVM
+IndentWidth: 4
+IndentCaseLabels: true
+IndentPPDirectives: None
+TabWidth: 4
+UseTab: Never
+UseCRLF: false
+ColumnLimit: 120
+SortIncludes: false
+BreakBeforeBraces: Custom
+AlignConsecutiveMacros: AcrossComments
+AllowShortFunctionsOnASingleLine: false
+BraceWrapping:
+  AfterFunction: true
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true

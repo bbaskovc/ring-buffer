@@ -1,0 +1,21 @@
+# Visual Studio Code files 
+.vscode/
+
+# Cached files 
+.cache/
+__cache__/
+__pycache__/
+
+# Build files 
+build/
+
+# Components 
+components/
+
+# Generated logs
+logs/
+
+# ESP-IDF files
+sdkconfig
+sdkconfig*.old
+sdkconfig*.bak

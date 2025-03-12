@@ -1,0 +1,14 @@
+name: Run gtest check
+
+on:
+  push:
+    branches:
+      - test/gtest
+
+jobs:
+  gtest:
+    uses: bbaskovc/cicd/.github/workflows/gtest.yml@main
+    with:
+      test_dir: 'tests/gtest'
+      project_name: 'ring_buffer_gtest'
+
