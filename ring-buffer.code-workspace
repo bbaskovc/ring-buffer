@@ -46,10 +46,7 @@
                 120
             ]
         },
-        "files.associations": {
-            "ring_buffer_conf.h": "c",
-            "chrono": "cpp"
-        }
+        "files.associations": {}
     },
     // Development extensions
     "extensions": {

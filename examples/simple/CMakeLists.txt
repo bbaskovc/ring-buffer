@@ -4,6 +4,9 @@ cmake_minimum_required(VERSION 3.16)
 # Set the project name and version
 project(calc_crc_example_simple)
 
+# Print a status message indicating the project being built
+message(STATUS "Building as ${PROJECT_NAME} project (examples/simple)")
+
 # Add project source files
 set(SRC_FILES
     src/main.c
@@ -19,10 +22,10 @@ set(REQ_LIBS
     ring-buffer
 )
 
-# Configure the calc-crc component
+# Configure the ring-buffer component
 set(RING_BUFFER_CONF_DIR ${CMAKE_CURRENT_SOURCE_DIR}/inc/conf CACHE STRING "Directory for configuration files")
 
-# Add the CALC-CRC component
+# Add the ring-buffer component
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../../ ring-buffer)
 
 # Create the executable 

@@ -9,12 +9,9 @@ The project is organized as follows:
 ```bash
 tests/ctest/        
 ├── CMakeLists.txt              # The CMake configuration file for building the project.
-├── inc/                        # Directory containing header files.
-│   └── conf/                   # Configuration header files.
-│       └── ring_buffer_conf.h  # Configuration for the ring buffer.
-└── src/                        # Directory containing source files.
-    └── tests/                  # Directory containing test source files.
-        └── main.c              # Main test file.
+├── src/                        # Directory containing source files.
+│   └── main.c                  # Main test file.
+└── README.md                   # This is the file you are reading.
 ```
 
 ## Building the Project
@@ -46,5 +43,5 @@ To build the project, follow these steps:
 
 After building the project, you can run the tests using the following command:
 ```bash
-./build/ring_buffer_ctest_test_main
+./build/ring_buffer_cppcheck
 ```

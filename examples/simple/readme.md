@@ -37,6 +37,5 @@ After building the project, you can run the example to see the `ring-buffer` exa
 
 1. Run example executable.
    ```bash
-   idf.py flash monitor
-   ```d/ring_buffer_example_simple
+   ```./build/ring_buffer_example_simple
 ```
