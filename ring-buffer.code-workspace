@@ -20,7 +20,7 @@
         // Configure build dircetory
         "cmake.buildDirectory": "${workspaceFolder}/build",
         // CMake default directory
-        "cmake.sourceDirectory": "${workspaceFolder}/tests/gtest",
+        "cmake.sourceDirectory": "${workspaceFolder}/tests/ctest",
         // Configurations based on file extensions
         "[cpp]": {
             "editor.defaultFormatter": "ms-vscode.cpptools",

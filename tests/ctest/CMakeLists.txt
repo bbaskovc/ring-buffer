@@ -56,7 +56,7 @@ include(FetchContent)
 FetchContent_Declare(
   ctest
   GIT_REPOSITORY https://github.com/bbaskovc/ctest.git
-  GIT_TAG release/v1.0.0
+  GIT_TAG v1.0.0
 )
 FetchContent_MakeAvailable(ctest)
 

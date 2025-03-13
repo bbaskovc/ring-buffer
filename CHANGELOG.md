@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [vX.X.X](https://github.com/bbaskovc/ring-buffer/tree/vX.X.X) (2025-XX-XX)
+
+### 🚀 Features
+
+- Moved ctest out of includes and used git repository.
+
 ## [v1.0.0](https://github.com/bbaskovc/ring-buffer/tree/v1.0.0) (2025-03-12)
 
 ### 🚀 Features
